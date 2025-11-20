@@ -10,7 +10,7 @@ Syftet med uppgiften är att tillämpa de kunskaper som vi gått igenom under te
 
 ## **Kund/målgrupp**
 
-Se ditt din dokumentationsmall för info om företag, syfte, målgrupp och huvudkulör.	
+Se din dokumentationsmall för info om företag, syfte, målgrupp och huvudkulör.	
 
 ## **Kravspecifikation**
 
