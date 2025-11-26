@@ -1,0 +1,42 @@
+#wrapper { 
+    display: grid;
+    height: 200vh;
+    width: 100vw;
+
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 15vh 5vh 30vh 50vh 80vh 20vh;
+    grid-template-areas: 
+    'hd hd hd hd hd'
+    'nv nv nv nv nv'
+    'as as div1 div1 div1'
+    'mn mn mn img img'
+    'nah div2 div2 div2 nah'
+    'ft ft ft ft ft'
+    ;
+}
+
+#header-home {
+grid-area: hd;
+}
+
+#aside-home {
+grid-area: nv;
+}
+
+#div1 {
+grid-area: div1;
+}
+
+#main-home {
+grid-area: hm;
+}
+
+#div2 {
+grid-area: div2;
+
+}
+
+#footer-home {
+grid-area: ft;
+}
+
