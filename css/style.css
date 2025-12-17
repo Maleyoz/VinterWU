@@ -1,62 +1,106 @@
-body {
-    height: 100vh;
-    width: 99%;
-}
-
-#wrapper-home { 
+#wrapper-home {
     display: grid;
     height: 100vh;
     gap: 1%;
 
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
     grid-template-rows: 15% 5% 30% 50% 80% 20%;
-    grid-template-areas: 
-    'hd hd hd hd hd'
-    'nv nv nv nv nv'
-    'as as div1 div1 div1'
-    'mn mn mn img img'
-    '. div2 div2 div2 .'
-    'ft ft ft ft ft'
+    grid-template-areas:
+        'hd-h hd-h hd-h hd-h hd-h'
+        'nv-h nv-h nv-h nv-h nv-h'
+        'as-h as-h div1-h div1-h div1-h'
+        'mn-h mn-h mn-h img-h img-h'
+        '. div2-h div2-h div2-h .'
+        'ft-h ft-h ft-h ft-h ft-h'
     ;
 }
 
 #hd-home {
-grid-area: hd;
-background-color: teal ;
+    grid-area: hd-h;
+    background-color: teal;
 }
 
 #nv-home {
-grid-area: nv;
-background-color: teal ;
+    grid-area: nv-h;
+    background-color: teal;
 }
 
 #as-home {
-grid-area: as;
-background-color: teal ;
+    grid-area: as-h;
+    background-color: teal;
 }
 
 #div1-home {
-grid-area: div1;
-background-color: teal ;
+    grid-area: div1-h;
+    background-color: teal;
 }
 
 #mn-home {
-grid-area: mn;
-background-color: teal ;
+    grid-area: mn-h;
+    background-color: teal;
 }
 
 #img-home {
-    grid-area: img;
-    background-color: teal ;
+    grid-area: img-h;
+    background-color: teal;
 }
 
 #div2-home {
-grid-area: div2;
-background-color: teal ;
+    grid-area: div2-h;
+    background-color: teal;
 }
 
 #ft-home {
-grid-area: ft;
-background-color: teal ;
+    grid-area: ft-h;
+    background-color: teal;
 }
 
+#wrapper-training {
+    display: grid;
+    height: 100vh;
+    gap: 1%;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8% 4% 16% 16% 16% 16% 16% 8%;
+    grid-template-areas:
+        'hd-t hd-t hd-t hd-t'
+        'nv-t nv-t nv-t nv-t'
+        'as-t mn-t mn-t img-t'
+        'div-t div-t div-t div-t'
+        'div-t div-t div-t div-t'
+        'div-t div-t div-t div-t'
+        'div-t div-t div-t div-t'
+        'ft-t ft-t ft-t ft-t'
+    ;
+
+}
+
+#hd-training {
+    grid-area: hd-t;
+    background-color: teal;
+}
+
+#nv-training{
+    grid-area: nv-t;
+    background-color: teal;
+}
+
+#section-training {
+    grid-area: mn-t;
+    background-color: teal;
+}
+
+#as-training {
+    grid-area: as-t;
+    background-color: teal;
+}
+
+#img-training {
+    grid-area: img-t;
+    background-color: teal;
+}
+
+#ft-training {
+    grid-area: ft-t;
+    background-color: teal;
+}
