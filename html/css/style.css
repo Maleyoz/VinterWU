@@ -17,7 +17,9 @@
 
 #hd-home {
     grid-area: hd-h;
-    background-color: teal;
+    background: #e74c3c;
+    padding: 20px;
+    text-align: center;
 }
 
 #nv-home {
