@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fdf2f2;
+}
+
 #wrapper-home {
     display: grid;
     height: 100vh;
@@ -24,37 +30,44 @@
 
 #nv-home {
     grid-area: nv-h;
-    background-color: teal;
+    background: #c0392b;
+    color: white;
 }
 
 #as-home {
     grid-area: as-h;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #div1-home {
     grid-area: div1-h;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #mn-home {
     grid-area: mn-h;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #img-home {
     grid-area: img-h;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #div2-home {
     grid-area: div2-h;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #ft-home {
     grid-area: ft-h;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #wrapper-training {
@@ -79,30 +92,36 @@
 
 #hd-training {
     grid-area: hd-t;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #nv-training{
     grid-area: nv-t;
-    background-color: teal;
+    background: #c0392b;
+    color: white;
 }
 
 #main-training {
     grid-area: mn-t;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #as-training {
     grid-area: as-t;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #img-training {
     grid-area: img-t;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
 
 #ft-training {
     grid-area: ft-t;
-    background-color: teal;
+    background: #e74c3c;
+    color: white;
 }
